@@ -17,8 +17,7 @@ public class Rocket {
     /*
      * Sources :
      * https://fr.wikipedia.org/wiki/Falcon_9#Comparaison_des_versions_du_lanceur
-     * https://www.lefigaro.fr/fig-data/falcon-9-la-fusee-d-elon-musk-qui-va-emmener
-     * -thomas-pesquet-vers-l-iss-20210421/
+     * https://www.lefigaro.fr/fig-data/falcon-9-la-fusee-d-elon-musk-qui-va-emmener-thomas-pesquet-vers-l-iss-20210421/
      */
 
     /* Formule de l'accélération a = F/m */
