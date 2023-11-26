@@ -1,5 +1,5 @@
-
 public class Rockets {
+    
     /* Formule de l'accélération a = F/m */
     private static double calculateAcceleration(double thrust, double mass) {
         double g = 9.81;
@@ -35,10 +35,10 @@ public class Rockets {
             if (acceleration == 0) {
                 break;
             }
+            time++;
             /* Formule de la vitesse : v = a*t */
             speed = acceleration * time;
             altitude = calculateAltitude(speed, time, acceleration);
-            time++;
 
             System.out.println("Masse actuelle : " + mass + " kg");
             System.out.println("Acceleration actuelle : " + acceleration + " m/s²");

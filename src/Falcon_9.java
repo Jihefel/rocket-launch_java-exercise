@@ -12,9 +12,9 @@ public class Falcon_9 {
 
         // Les propulseurs de l'étage 2 s'allume 8s après la séparation de l'étage 1 (166s) et s'éteignent à 397s.
     static private double ergol2 = 112000; // kg
-    static public double floor2ConsumptionTime1 = 166;
-    static public double floor2ConsumptionTime2 = 397;
-    static private double floor2ConsumptionDuration = floor2ConsumptionTime2 - floor2ConsumptionTime1;
+    static public double floor2ConsumptionIgnitionTime = 166;
+    static public double floor2ConsumptionExtinctionTime = 397;
+    static private double floor2ConsumptionDuration = floor2ConsumptionExtinctionTime - floor2ConsumptionIgnitionTime;
     static public double consumption2 = ergol2 / floor2ConsumptionDuration; // Consommation du carburant par seconde
 }
 
